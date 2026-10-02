@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #f5f1e9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #d9e0d2;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-bottom: 3px solid #536b50;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1em;
+    font-style: italic;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+}
+
+section {
+    padding: 1em;
+}
+
+button {
+    background-color: #536b50;
+    color: white;
+    padding: 0.8em;
+    margin: 0.5em;
+    border: 2px solid #354632;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #354632;
+}
+
+#cards {
+    margin-top: 2em;
+}
+
+.card {
+    background-color: white;
+    color: #333333;
+    width: 280px;
+    height: 220px;
+    padding: 1.5em;
+    margin: 1em;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #d9e0d2;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #cccccc;
+}
+
+.card h2 {
+    color: #536b50;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 1em;
+}
+
+footer {
+    background-color: #d9e0d2;
+    padding: 1em;
+    margin-top: 2em;
+    border-top: 3px solid #536b50;
+}
+
+.dark-theme {
+    background-color: #222222;
+    color: white;
+}
+
+.dark-theme header {
+    background-color: #333333;
+}
+
+.dark-theme footer {
+    background-color: #333333;
+}
+
+.dark-theme .card {
+    background-color: #444444;
+    color: white;
+    border: 1px solid #666666;
+}
+
+.dark-theme .card h2 {
+    color: #c9d8bd;
+}
